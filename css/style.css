@@ -1,0 +1,29 @@
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+
+    padding-top: 50px;
+}
+
+#container{
+    width: 100%;
+    background-color: rgb(4, 180, 4);
+    text-align: center;
+    padding: 30px;
+}
+
+#diceImg{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#diceContainer{
+    padding-top: 100px;
+}
