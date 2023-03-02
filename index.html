@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Dadi</title>
 </head>
 <body>
     <div class="container-fluid" >
@@ -21,17 +21,33 @@
         
         <div id="container">
 
-            <div id="diceImg" >
+            <div id="dice-container">
 
-                <img id="playerDice" src="" alt="player-dice">
-                
-                <img id="pcDice" src="" alt="pc-dice">
+                <div class="card">
+                    
+                    <img id="playerDice" src="" alt="player-dice">
+                    
+                    <div class="name">User</div>
+
+                </div>
+
+                <div class="card">
+
+                    <img id="pcDice" src="" alt="pc-dice">
+                    
+                    <div class="name">pc</div>
+
+                </div>
+
+
             </div>
             
-            <div id="diceContainer" >
+            <div id="button-container" >
                 <button id="diceBtn">Roll the dice!</button>
             </div>
         </div>
+
+        <div id="result"></div>
         
     </div>
 

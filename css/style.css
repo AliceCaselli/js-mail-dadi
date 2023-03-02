@@ -15,15 +15,28 @@
     padding: 30px;
 }
 
-#diceImg{
+#dice-container{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     justify-content: space-around;
+    display: none;
 }
 
+#dice-container img{
+    width: 100px;
+}
 
-#diceContainer{
+#button-container{
     padding-top: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 800;
 }
